@@ -57,7 +57,7 @@ class CustomARView: ARView, ARSessionDelegate{
         // Buat AnchorEntity berdasarkan posisi gambar terdeteksi
         let anchorEntity = AnchorEntity(anchor: anchor)
         
-        let modelEntity = try! ModelEntity.loadModel(named: "Earth")
+        let modelEntity = try! ModelEntity.loadModel(named: "Globe1")
         
         // Tentukan posisi spawn dengan mengatur translation (jika perlu)
         modelEntity.transform.translation = SIMD3<Float>(x: 0, y: 0.5, z: 0)
