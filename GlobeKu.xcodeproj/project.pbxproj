@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		12628BC62CF3012D0015E7B2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 12628BC52CF301260015E7B2 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		12DCCFFD2CBD841C007341E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12628BC52CF301260015E7B2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		12DCCFEC2CBD841B007341E2 /* GlobeKu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobeKu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12DCCFFC2CBD841C007341E2 /* GlobeKuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobeKuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12DCD0062CBD841C007341E2 /* GlobeKuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobeKuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		12DCCFE32CBD841B007341E2 = {
 			isa = PBXGroup;
 			children = (
+				12628BC52CF301260015E7B2 /* README.md */,
 				12DCCFEE2CBD841B007341E2 /* GlobeKu */,
 				12DCCFFF2CBD841C007341E2 /* GlobeKuTest */,
 				12DCD0092CBD841C007341E2 /* GlobeKuUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12628BC62CF3012D0015E7B2 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
