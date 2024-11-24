@@ -6,9 +6,9 @@
 //
 
 import Testing
-@testable import ProtoGlobeKu
+@testable import GlobeKu
 
-struct ProtoGlobeKuTests {
+struct GlobeKuTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

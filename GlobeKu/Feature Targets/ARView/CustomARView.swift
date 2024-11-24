@@ -50,23 +50,12 @@ class CustomARView: ARView, ARSessionDelegate{
             }
         }
     }
-
-//    //test membuat endtity"
-//    func createEntity() -> ModelEntity {
-//        // Buat entitas kotak biru
-//        let block = MeshResource.generateBox(size: 0.2)
-//        let material = SimpleMaterial(color: .blue, isMetallic: true)
-//        let entity = ModelEntity(mesh: block, materials: [material])
-//        return entity
-//    }
     
     //untuk memunculkan si objek
     func placeEntity(on anchor: ARImageAnchor) {
+        
         // Buat AnchorEntity berdasarkan posisi gambar terdeteksi
         let anchorEntity = AnchorEntity(anchor: anchor)
-        
-//        // Panggil fungsi createEntity() untuk mendapatkan entitas yang dibuat
-//        let entity = createEntity()
         
         let modelEntity = try! ModelEntity.loadModel(named: "Earth")
         
@@ -97,7 +86,8 @@ class CustomARView: ARView, ARSessionDelegate{
         let pinchGesture = UIPinchGestureRecognizer(target: self, action: #selector(handlePinchGesture(_:)))
         self.addGestureRecognizer(pinchGesture)
     }
-
+    
+    // Gesture Control Rotation
     @objc func handlePanGesture(_ gesture: UIPanGestureRecognizer) {
         guard let entity = gesture.view as? ARView else { return }
         guard let modelEntity = entity.scene.anchors.first?.children.first as? ModelEntity else { return }
@@ -106,16 +96,17 @@ class CustomARView: ARView, ARSessionDelegate{
         
         // Tentukan sudut rotasi
         let horizontalRotationAngle = Float(translation.x) * 0.01 // Rotasi horizontal (sumbu Y)
-//        let verticalRotationAngle = Float(translation.y) * 0.01   // Rotasi vertikal (sumbu X)
+        //let verticalRotationAngle = Float(translation.y) * 0.01   // Rotasi vertikal (sumbu X)
         
         // Reset nilai gesture setelah memproses
         gesture.setTranslation(.zero, in: self)
         
         // Terapkan rotasi pada model entity
         modelEntity.transform.rotation *= simd_quatf(angle: horizontalRotationAngle, axis: [0, 1, 0]) // rotasi horizontal
-//        modelEntity.transform.rotation *= simd_quatf(angle: verticalRotationAngle, axis: [1, 0, 0])   // rotasi vertikal
+        //modelEntity.transform.rotation *= simd_quatf(angle: verticalRotationAngle, axis: [1, 0, 0])   // rotasi vertikal
     }
 
+    // Gesture Control Scale
     @objc func handlePinchGesture(_ gesture: UIPinchGestureRecognizer) {
         guard let entity = gesture.view as? ARView else { return }
         guard let modelEntity = entity.scene.anchors.first?.children.first as? ModelEntity else { return }

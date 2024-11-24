@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12DCCFEC2CBD841B007341E2 /* ProtoGlobeKu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtoGlobeKu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		12DCCFFC2CBD841C007341E2 /* ProtoGlobeKuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoGlobeKuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		12DCD0062CBD841C007341E2 /* ProtoGlobeKuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoGlobeKuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12DCCFEC2CBD841B007341E2 /* GlobeKu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobeKu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12DCCFFC2CBD841C007341E2 /* GlobeKuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobeKuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12DCD0062CBD841C007341E2 /* GlobeKuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobeKuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		12DCCFEE2CBD841B007341E2 /* ProtoGlobeKu */ = {
+		12DCCFEE2CBD841B007341E2 /* GlobeKu */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ProtoGlobeKu;
+			path = GlobeKu;
 			sourceTree = "<group>";
 		};
-		12DCCFFF2CBD841C007341E2 /* ProtoGlobeKuTests */ = {
+		12DCCFFF2CBD841C007341E2 /* GlobeKuTest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ProtoGlobeKuTests;
+			path = GlobeKuTest;
 			sourceTree = "<group>";
 		};
-		12DCD0092CBD841C007341E2 /* ProtoGlobeKuUITests */ = {
+		12DCD0092CBD841C007341E2 /* GlobeKuUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ProtoGlobeKuUITests;
+			path = GlobeKuUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		12DCCFE32CBD841B007341E2 = {
 			isa = PBXGroup;
 			children = (
-				12DCCFEE2CBD841B007341E2 /* ProtoGlobeKu */,
-				12DCCFFF2CBD841C007341E2 /* ProtoGlobeKuTests */,
-				12DCD0092CBD841C007341E2 /* ProtoGlobeKuUITests */,
+				12DCCFEE2CBD841B007341E2 /* GlobeKu */,
+				12DCCFFF2CBD841C007341E2 /* GlobeKuTest */,
+				12DCD0092CBD841C007341E2 /* GlobeKuUITests */,
 				12DCCFED2CBD841B007341E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		12DCCFED2CBD841B007341E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12DCCFEC2CBD841B007341E2 /* ProtoGlobeKu.app */,
-				12DCCFFC2CBD841C007341E2 /* ProtoGlobeKuTests.xctest */,
-				12DCD0062CBD841C007341E2 /* ProtoGlobeKuUITests.xctest */,
+				12DCCFEC2CBD841B007341E2 /* GlobeKu.app */,
+				12DCCFFC2CBD841C007341E2 /* GlobeKuTests.xctest */,
+				12DCD0062CBD841C007341E2 /* GlobeKuUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		12DCCFEB2CBD841B007341E2 /* ProtoGlobeKu */ = {
+		12DCCFEB2CBD841B007341E2 /* GlobeKu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12DCD0102CBD841C007341E2 /* Build configuration list for PBXNativeTarget "ProtoGlobeKu" */;
+			buildConfigurationList = 12DCD0102CBD841C007341E2 /* Build configuration list for PBXNativeTarget "GlobeKu" */;
 			buildPhases = (
 				12DCCFE82CBD841B007341E2 /* Sources */,
 				12DCCFE92CBD841B007341E2 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				12DCCFEE2CBD841B007341E2 /* ProtoGlobeKu */,
+				12DCCFEE2CBD841B007341E2 /* GlobeKu */,
 			);
-			name = ProtoGlobeKu;
+			name = GlobeKu;
 			packageProductDependencies = (
 			);
 			productName = ProtoGlobeKu;
-			productReference = 12DCCFEC2CBD841B007341E2 /* ProtoGlobeKu.app */;
+			productReference = 12DCCFEC2CBD841B007341E2 /* GlobeKu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		12DCCFFB2CBD841C007341E2 /* ProtoGlobeKuTests */ = {
+		12DCCFFB2CBD841C007341E2 /* GlobeKuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12DCD0132CBD841C007341E2 /* Build configuration list for PBXNativeTarget "ProtoGlobeKuTests" */;
+			buildConfigurationList = 12DCD0132CBD841C007341E2 /* Build configuration list for PBXNativeTarget "GlobeKuTests" */;
 			buildPhases = (
 				12DCCFF82CBD841C007341E2 /* Sources */,
 				12DCCFF92CBD841C007341E2 /* Frameworks */,
@@ -131,18 +131,18 @@
 				12DCCFFE2CBD841C007341E2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				12DCCFFF2CBD841C007341E2 /* ProtoGlobeKuTests */,
+				12DCCFFF2CBD841C007341E2 /* GlobeKuTest */,
 			);
-			name = ProtoGlobeKuTests;
+			name = GlobeKuTests;
 			packageProductDependencies = (
 			);
 			productName = ProtoGlobeKuTests;
-			productReference = 12DCCFFC2CBD841C007341E2 /* ProtoGlobeKuTests.xctest */;
+			productReference = 12DCCFFC2CBD841C007341E2 /* GlobeKuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		12DCD0052CBD841C007341E2 /* ProtoGlobeKuUITests */ = {
+		12DCD0052CBD841C007341E2 /* GlobeKuUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12DCD0162CBD841C007341E2 /* Build configuration list for PBXNativeTarget "ProtoGlobeKuUITests" */;
+			buildConfigurationList = 12DCD0162CBD841C007341E2 /* Build configuration list for PBXNativeTarget "GlobeKuUITests" */;
 			buildPhases = (
 				12DCD0022CBD841C007341E2 /* Sources */,
 				12DCD0032CBD841C007341E2 /* Frameworks */,
@@ -154,13 +154,13 @@
 				12DCD0082CBD841C007341E2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				12DCD0092CBD841C007341E2 /* ProtoGlobeKuUITests */,
+				12DCD0092CBD841C007341E2 /* GlobeKuUITests */,
 			);
-			name = ProtoGlobeKuUITests;
+			name = GlobeKuUITests;
 			packageProductDependencies = (
 			);
 			productName = ProtoGlobeKuUITests;
-			productReference = 12DCD0062CBD841C007341E2 /* ProtoGlobeKuUITests.xctest */;
+			productReference = 12DCD0062CBD841C007341E2 /* GlobeKuUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 12DCCFE72CBD841B007341E2 /* Build configuration list for PBXProject "ProtoGlobeKu" */;
+			buildConfigurationList = 12DCCFE72CBD841B007341E2 /* Build configuration list for PBXProject "GlobeKu" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				12DCCFEB2CBD841B007341E2 /* ProtoGlobeKu */,
-				12DCCFFB2CBD841C007341E2 /* ProtoGlobeKuTests */,
-				12DCD0052CBD841C007341E2 /* ProtoGlobeKuUITests */,
+				12DCCFEB2CBD841B007341E2 /* GlobeKu */,
+				12DCCFFB2CBD841C007341E2 /* GlobeKuTests */,
+				12DCD0052CBD841C007341E2 /* GlobeKuUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		12DCCFFE2CBD841C007341E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 12DCCFEB2CBD841B007341E2 /* ProtoGlobeKu */;
+			target = 12DCCFEB2CBD841B007341E2 /* GlobeKu */;
 			targetProxy = 12DCCFFD2CBD841C007341E2 /* PBXContainerItemProxy */;
 		};
 		12DCD0082CBD841C007341E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 12DCCFEB2CBD841B007341E2 /* ProtoGlobeKu */;
+			target = 12DCCFEB2CBD841B007341E2 /* GlobeKu */;
 			targetProxy = 12DCD0072CBD841C007341E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,11 +395,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ProtoGlobeKu/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GlobeKu/Preview Content\"";
 				DEVELOPMENT_TEAM = 43BP9M7756;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to show AR View.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This lets you take photos, record videos and more within the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -410,7 +410,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Kelompok5.ProtoGlobeKu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kelompok5.GlobeKu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -425,11 +425,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ProtoGlobeKu/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GlobeKu/Preview Content\"";
 				DEVELOPMENT_TEAM = 43BP9M7756;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Needed to show AR View.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This lets you take photos, record videos and more within the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Kelompok5.ProtoGlobeKu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kelompok5.GlobeKu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -463,7 +463,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtoGlobeKu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProtoGlobeKu";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobeKu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlobeKu";
 			};
 			name = Debug;
 		};
@@ -482,7 +482,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtoGlobeKu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProtoGlobeKu";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobeKu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlobeKu";
 			};
 			name = Release;
 		};
@@ -523,7 +523,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12DCCFE72CBD841B007341E2 /* Build configuration list for PBXProject "ProtoGlobeKu" */ = {
+		12DCCFE72CBD841B007341E2 /* Build configuration list for PBXProject "GlobeKu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12DCD00E2CBD841C007341E2 /* Debug */,
@@ -532,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12DCD0102CBD841C007341E2 /* Build configuration list for PBXNativeTarget "ProtoGlobeKu" */ = {
+		12DCD0102CBD841C007341E2 /* Build configuration list for PBXNativeTarget "GlobeKu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12DCD0112CBD841C007341E2 /* Debug */,
@@ -541,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12DCD0132CBD841C007341E2 /* Build configuration list for PBXNativeTarget "ProtoGlobeKuTests" */ = {
+		12DCD0132CBD841C007341E2 /* Build configuration list for PBXNativeTarget "GlobeKuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12DCD0142CBD841C007341E2 /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12DCD0162CBD841C007341E2 /* Build configuration list for PBXNativeTarget "ProtoGlobeKuUITests" */ = {
+		12DCD0162CBD841C007341E2 /* Build configuration list for PBXNativeTarget "GlobeKuUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12DCD0172CBD841C007341E2 /* Debug */,

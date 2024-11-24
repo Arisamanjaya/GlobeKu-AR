@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ProtoGlobeKuApp: App {
+struct GlobeKuApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class ProtoGlobeKuUITestsLaunchTests: XCTestCase {
+final class GlobeKuUITestLaunchTest: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
